@@ -57,6 +57,11 @@ public class stepDefinition extends BaseClass
 	public void user_selects_the_gender_in_the_page() {
 		obj1.selectGender();
 	}
+	
+	@Given("user enters the date of birth in the field as {string}")
+	public void user_enters_the_date_of_birth_in_the_field_as(String date_birth) {
+	    obj1.DateOfBirth(date_birth);	
+	}
 
 	@Given("user enters the address in guru99 application as {string}")
 	public void user_enters_the_address_in_guru99_application_as(String address) {

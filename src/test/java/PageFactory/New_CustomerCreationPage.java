@@ -24,6 +24,9 @@ public class New_CustomerCreationPage {
 	@FindBy(xpath="(//input[@value='m'])")
 	WebElement gender;
 	
+	@FindBy(xpath="//input[@id='dob']")
+	WebElement selectdob;
+	
 	@FindBy (xpath="(//textarea[@name='addr'])")
 	WebElement Address;
 	
@@ -42,6 +45,12 @@ public class New_CustomerCreationPage {
 	{
 		gender.click();
 	}
+	
+	public void DateOfBirth(String dob)
+	{
+		selectdob.sendKeys(dob);
+	}
+	
 	
 	public void enterAddress(String address)
 	{

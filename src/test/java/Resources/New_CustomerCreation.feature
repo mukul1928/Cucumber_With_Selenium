@@ -11,8 +11,9 @@ Feature: Creation of new customer of Guru99 application
     Given the user clicks on the new customer link in the application guru99
     And user enters the customer name in guru99 application as "<customer_name>"
     And user selects the gender in the page
+    And user enters the date of birth in the field as "<date_birth>"
     And user enters the address in guru99 application as "<address>"
 
     Examples: 
-      | customer_name | address   |
-      | Chandan       | New Delhi |
+      | customer_name | address   | date_birth |
+      | Chandan       | New Delhi | 10-19-1990 |
