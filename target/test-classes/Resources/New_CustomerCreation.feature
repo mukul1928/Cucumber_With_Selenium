@@ -1,3 +1,5 @@
+@regression
+@both
 Feature: Creation of new customer of Guru99 application
 
   Background: 

@@ -1,3 +1,5 @@
+@sanity
+@both
 Feature: Validate Login Functionality for Demo Application Guru99
 
   Scenario Outline: To Validate the Login functionality for Guru99 application
